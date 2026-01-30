@@ -1,0 +1,104 @@
+# Amazon Scraper - Gitignore
+
+# ============================================
+# ARQUIVOS SENSÍVEIS - NUNCA COMMITAR!
+# ============================================
+
+# Environment variables (contém credenciais!)
+.env
+.env.local
+.env.*.local
+
+# Documentação com informações sensíveis
+RESUMO_SCRAPER_AMAZON.md
+
+# Session data (cookies e dados de autenticação)
+puppeteer_session/
+*.session.json
+amazon_session.json
+
+# Screenshots (podem conter dados sensíveis)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Arquivos de debug (podem conter dados sensíveis)
+debug_*.html
+debug_html/
+page_*.json
+
+# Logs (podem conter dados sensíveis)
+logs/
+*.log
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# IDE e Editores
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# OUTROS
+# ============================================
+*.bak
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
