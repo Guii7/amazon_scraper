@@ -27,7 +27,7 @@ python_scraper_amazon/
 
 ### Passo 1: Instalar Dependências
 ```cmd
-cd C:\Users\guii7\bear_cave_labs\n8n\python_scraper_amazon
+cd /caminho/para/python_scraper_amazon
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
